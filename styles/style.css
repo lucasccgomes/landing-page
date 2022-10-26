@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #FFFFFF;
+    --cor2: #0D9488;
+    --cor3: #0F766E;
+    --cor4: #04181D;
+}
+
+header {
+    background-color: var(--cor4);
+    max-height: 64px;
+}
+
+#logo h1 {
+    color: var(--cor2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navegation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegation a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+#button1 {
+    color: var(--cor1);
+    background-color: var(--cor2);
+}
+
+#button2 {
+    color: var(--cor4);
+    background-color: var(--cor1);
+}
