@@ -1,0 +1,66 @@
+@media screen and (max-width: 766px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    :root {
+        --cor1: #FFFFFF;
+        --cor2: #0D9488;
+        --cor3: #0F766E;
+        --cor4: #04181D;
+    }
+    
+    label {
+        background-color: var(--cor1);
+        width: 30px;
+        border-radius: 7px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #icone {
+        cursor: pointer;
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .bar {
+        background-color: var(--cor4);
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        transition: all .2s linear;
+        left: -300px;
+    }
+
+   .bar nav {
+        width: 100%;
+        position: absolute;
+        top: 60px;
+   }
+
+   .bar nav a {
+        text-decoration: none;
+        transition: all .2s linear;
+        color: var(--cor1);
+   }
+
+   #check:checked ~ .bar {
+        transform: translate(300px);
+   }
+
+   .navegation nav {
+        display: none;
+   }
+
+   #side-menu {
+        float: right;
+        margin-right: 111px;
+        margin-top: -49px;
+   }
+}
