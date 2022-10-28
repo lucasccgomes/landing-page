@@ -1,3 +1,15 @@
+@media screen and (max-width: 520px) {
+    #button > #button2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    #button > #button1 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 766px) {
     * {
         margin: 0;
@@ -10,12 +22,23 @@
         --cor2: #0D9488;
         --cor3: #0F766E;
         --cor4: #04181D;
+        --cor5: #0f766d7c;
     }
     
     label {
         background-color: var(--cor1);
-        width: 30px;
+        width: 18px;
+        height: 9.2px;
         border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    label > img {
+        width: 100%;
+        align-items: center;
+        margin: auto;
     }
 
     #check {
@@ -26,41 +49,77 @@
         cursor: pointer;
         padding: 15px;
         position: absolute;
-        z-index: 1;
     }
 
     .bar {
         background-color: var(--cor4);
         height: 100%;
-        width: 300px;
+        width: 250px;
         position: absolute;
-        transition: all .2s linear;
+        transition: all .3s linear;
         left: -300px;
     }
 
-   .bar nav {
+   .bar > nav {
         width: 100%;
         position: absolute;
         top: 60px;
+        display: flex;
+        flex-direction: column;
    }
 
-   .bar nav a {
+   .bar > nav > a {
         text-decoration: none;
-        transition: all .2s linear;
         color: var(--cor1);
+        margin-left: 26px;
+        margin-bottom: 10px;
+        min-height: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+        
+   }
+
+   .bar nav a:hover {
+        background-color: var(--cor5);
+        
+   }
+
+   .bar .logo {
+        margin-left: 30px;
    }
 
    #check:checked ~ .bar {
         transform: translate(300px);
    }
 
-   .navegation nav {
+   .navegation > nav {
         display: none;
    }
 
    #side-menu {
+        display: block;
         float: right;
-        margin-right: 111px;
-        margin-top: -49px;
+        margin-right: 63px;
+        
+   }
+
+   #button-bar {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+   }
+
+   #button-bar > .button {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        align-items: center;
+   }
+
+   #button-bar > .button > a {
+        text-align: center;
+        align-items: center;
    }
 }
