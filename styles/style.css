@@ -11,9 +11,14 @@
     --cor4: #04181D;
 }
 
+
+/* Start Menu */
 header {
     background-color: var(--cor4);
     min-height: 55px;
+    display: block;
+    position: fixed;
+    width: 100%;
 }
 
 .logo h1 {
@@ -80,4 +85,9 @@ header {
 
 #side-menu {
     display: none;
+}
+/* End Menu */
+
+main {
+    padding-top: 60px;
 }
