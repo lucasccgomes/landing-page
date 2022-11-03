@@ -9,6 +9,7 @@
     --cor2: #0D9488;
     --cor3: #0F766E;
     --cor4: #04181D;
+    --cor5: #374151;
 }
 
 
@@ -19,6 +20,7 @@ header {
     display: block;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .logo h1 {
@@ -89,5 +91,77 @@ header {
 /* End Menu */
 
 main {
-    padding-top: 60px;
+    padding-top: 68px;
+}
+
+/* Start Home */
+.home {
+    display: flex;
+    max-height: 600px;
+}
+
+.content {
+    
+}
+
+.content-text {
+    display: flex;
+    float: left;
+    max-width: 512px;
+    max-height: 328px;
+    margin-top: -500px;
+    margin-left: 113px;
+    margin-right: 60px;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+.content-text h1 {
+    font-size: 2em;
+    
+    
+}
+
+.content-text p {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: var(--cor5);
+    
+}
+
+.content-image {
+    max-width: 764px;
+    max-height: 600px;
+    z-index: -2;
+}
+
+.content-image img {
+    width: 100%;
+    
+}
+
+#content-diagonal {
+    position: relative;
+    left: 550px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 0%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-20deg);
+    border-left: 20px transparent;
+    border-right: 274px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    z-index: -1;
+   
 }
