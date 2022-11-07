@@ -1,3 +1,29 @@
+@media screen and (max-width: 1275px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        display: block;
+    }
+
+    #content-diagonal {
+        display: none;
+    }
+
+    .content-text {
+        margin: 0;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+    .content-image {
+        max-width: 596px;
+    }
+}
+
 
 /* Start Menu */
 @media screen and (max-width: 520px) {
@@ -24,7 +50,7 @@
         --cor2: #0D9488;
         --cor3: #0F766E;
         --cor4: #04181D;
-        --cor5: #0f766d7c;
+        --cor5: #374151;
     }
     
     label {
@@ -129,3 +155,4 @@
 /* End Menu */
 
 }
+
