@@ -10,6 +10,7 @@
     --cor3: #0F766E;
     --cor4: #04181D;
     --cor5: #374151;
+    --cor6: #1B1F29;
 }
 
 
@@ -96,8 +97,7 @@ main {
 
 /* Start Home */
 .home {
-    display: flex;
-    
+    display: flex; 
 }
 
 #home {
@@ -112,7 +112,6 @@ main {
     align-content: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .content-text {
@@ -121,24 +120,19 @@ main {
     margin-top: 86px;
     max-width: 912px;
     max-height: 100%;
-    /* margin-top: -500px; */
     margin-left: 113px;
     margin-right: 60px;
     flex-direction: column;
-    
 }
 
 .content-text h1 {
-    font-size: 2em;
-    
-    
+    font-size: 2em;  
 }
 
 .content-text p {
     margin-top: 20px;
     font-size: 1.3em;
-    color: var(--cor5);
-    
+    color: var(--cor5);  
 }
 
 .content-image {
@@ -149,15 +143,14 @@ main {
 
 .content-image img {
     width: 100%;
-    
+    margin-bottom: -5px;
+    padding: 0;
 }
 
 #content-diagonal {
     float: left;
     margin-left: 40%;
-    margin-top: -66%;
-    /* margin-right: 74px; */
-    /* bottom: 1164px; */
+    margin-top: -74.8%;
     max-width: 780px;
     min-width: 517px;
     min-height: auto;
@@ -176,3 +169,73 @@ main {
     z-index: -1;
 }
 
+@media screen and (max-width: 1275px) {
+    main {
+        padding-top: 20px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        display: block;
+    }
+
+    #content-diagonal {
+        display: none;
+    }
+
+    .content-text {
+        margin: 0;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+    .content-image > img {
+        max-width: 596px;
+        border-radius: 5px;
+    }
+
+    #stats {
+        position: relative;
+        top: 360px;
+    }
+}
+
+.content-button {
+    display: flex;
+    margin-top: 30px;
+}
+
+.content-button #button1 a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content-button #button2 a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content-button > #button2 {
+    border: 1px;
+    border-color: var(--cor2);
+    border-style: solid;
+}
+/*End Home*/
+
+/*Start Stats*/
+#stats {
+    background-color: var(--cor6);
+    color: var(--cor1);
+    padding-top: 100px;
+}
+
+#content-stats {
+    display: flex;
+
+}
