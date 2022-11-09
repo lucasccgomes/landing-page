@@ -1,11 +1,23 @@
 /* Start Menu */
 @media screen and (max-width: 520px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
     #button > #button2 {
         display: none;
     }
 }
 
 @media screen and (max-width: 419px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
     #button > #button1 {
         display: none;
     }
