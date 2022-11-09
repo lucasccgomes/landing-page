@@ -145,6 +145,48 @@
         margin-left: 28px;
         margin-right: 28px;
     }
+
+    .info-number {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info1 {
+        border: 0px;
+    }
+
+    .info2 {
+        border: 0px;
+    }
+}
+
+@media screen and (max-width:1061px) {
+    #content-stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    #coins-time {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+
+    .info-number {
+        margin: auto;
+    }
+
+    .info1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 
