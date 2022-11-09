@@ -117,7 +117,7 @@ main {
 .content-text {
     display: flex;
     float: left;
-    margin-top: 86px;
+    margin-top: 82px;
     max-width: 912px;
     max-height: 100%;
     margin-left: 113px;
@@ -157,8 +157,6 @@ main {
     min-height: auto;
     height: 100%;
     background: rgb(255, 255, 255);
-    -webkit-transform: skew(-20deg);
-    -ms-transform: skew(-20deg);
     transform: skew(-20deg);
     border-left: 0px transparent;
     border-right: 0px;
@@ -198,6 +196,10 @@ main {
     .content-image > img {
         max-width: 596px;
         border-radius: 5px;
+    }
+
+    .content-image  {
+        margin: auto;
     }
 
     #stats {
