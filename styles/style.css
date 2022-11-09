@@ -139,7 +139,7 @@ main {
     max-width: 764px;
     max-height: 600px;
     z-index: -2;
-    margin-left: 60px;
+    margin-left: 130px;
 }
 
 .content-image img {
@@ -150,8 +150,8 @@ main {
 
 #content-diagonal {
     float: left;
-    margin-left: 40%;
-    margin-top: -75.6%;
+    margin-left: 60%;
+    margin-top: -75.0%;
     max-width: 780px;
     min-width: 517px;
     min-height: auto;
@@ -170,7 +170,7 @@ main {
     z-index: -1;
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1392px) {
     main {
         padding-top: 20px;
     }
