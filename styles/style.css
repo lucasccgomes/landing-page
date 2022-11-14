@@ -97,11 +97,15 @@ main {
 
 /* Start Home */
 .home {
-    display: flex; 
+    display: flex;
+    
 }
 
 #home {
+    display: flex;
     max-height: 550px;
+    
+    justify-content: center;
 }
 
 .content {
@@ -168,7 +172,7 @@ main {
     z-index: -1;
 }
 
-@media screen and (max-width: 1392px) {
+@media screen and (max-width: 1389px) {
     * {
         margin: 0;
         padding: 0;
