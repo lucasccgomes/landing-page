@@ -159,6 +159,26 @@
     .info2 {
         border: 0px;
     }
+
+    .antial {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-info {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #descrition {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    
 }
 
 @media screen and (max-width:1061px) {

@@ -151,14 +151,14 @@ main {
 
 .content-image img {
     width: 100%;
-    margin-bottom: -5px;
+    margin-bottom: -4px;
     padding: 0;
 }
 
 #content-diagonal {
     float: left;
     margin-left: 60%;
-    margin-top: -75%;
+    margin-top: -75.5%;
     max-width: 780px;
     min-width: 517px;
     min-height: auto;
@@ -175,7 +175,7 @@ main {
     z-index: -1;
 }
 
-@media screen and (max-width: 1389px) {
+@media screen and (max-width: 1365px) {
     * {
         margin: 0;
         padding: 0;
@@ -315,12 +315,16 @@ main {
     flex-direction: row;
 }
 
+#img-info {
+    display: flex;
+    justify-content: center;
+}
+
 .img-info {
     max-width: 520px;
     max-height: 292px;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 150px;
     margin-right: 60px;
 }
 
@@ -370,4 +374,18 @@ main {
 .token:hover {
     background-color: #1f53c4;
     cursor: default;
+}
+
+.descrition {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.descrition h1 {
+    margin-bottom: 15px;
+}
+
+.descrition p {
+    line-height: 25px;
+    font-size: 1.2em;
 }
