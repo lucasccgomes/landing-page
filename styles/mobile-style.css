@@ -159,7 +159,11 @@
     .info2 {
         border: 0px;
     }
+}
+/* End Home */
 
+/* Start Stats */
+@media screen and (max-width:900px) {
     .antial {
         margin: auto;
         display: flex;
@@ -170,15 +174,14 @@
         margin-top: 30px;
         margin-left: 15px;
         margin-right: 15px;
+        margin-bottom: 30px;
     }
 
     #descrition {
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 15px;
         margin-right: 15px;
     }
-
-    
 }
 
 @media screen and (max-width:1061px) {

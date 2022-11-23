@@ -94,9 +94,13 @@ header {
 }
 /* End Menu */
 
+
+/* Rever a real necessidade */
 main {
     padding-top: 68px;
 }
+/* Rever a real necessidade */
+
 
 /* Start Home */
 .home {
@@ -106,8 +110,6 @@ main {
 
 #home {
     display: flex;
-    max-height: 550px;
-    
     justify-content: center;
 }
 
@@ -203,7 +205,6 @@ main {
     .content-text {
         margin: 0;
         margin-top: 60px;
-        margin-bottom: 80px;
     }
 
     .content-image > img {
@@ -213,11 +214,8 @@ main {
 
     .content-image  {
         margin: auto;
-    }
-
-    #stats {
-        position: relative;
-        top: 360px;
+        margin-top: 50px;
+        margin-bottom: 35px;
     }
 }
 
@@ -326,6 +324,13 @@ main {
     margin-top: 60px;
     margin-bottom: 60px;
     margin-right: 60px;
+    margin-left: 30px;
+    box-shadow: 19px 20px 0px 3px #3e3b3b6b;
+}
+
+.img-info:hover {
+    box-shadow: none;
+    transition: 1.2s;
 }
 
 .img-info img {
@@ -388,4 +393,36 @@ main {
 .descrition p {
     line-height: 25px;
     font-size: 1.2em;
+}
+End Stats */
+
+/* Start Features */
+#features {
+    max-height: 530px;
+    display: flex;
+    justify-content: center;
+}
+
+#products {
+    margin-top: 30px;
+    display: flex;
+}
+
+.figure {
+    margin: auto;
+    max-width: 80px;
+    max-height: 80px;
+    border: 3px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: var(--cor5);
+    
+}
+
+.figure img {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
 }
