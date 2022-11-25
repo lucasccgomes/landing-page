@@ -398,7 +398,7 @@ main {
     line-height: 25px;
     font-size: 1.2em;
 }
-End Stats */
+/* End Stats */
 
 /* Start Features */
 #features {
@@ -421,6 +421,8 @@ End Stats */
 
 .products p {
     margin-left: 15px;
+    max-width: 315px;
+    line-height: 25px;
 }
 
 .figure {
