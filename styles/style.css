@@ -402,7 +402,6 @@ main {
 
 /* Start Features */
 #features {
-    max-height: 530px;
     display: flex;
     justify-content: center;
 }
@@ -443,3 +442,6 @@ main {
     height: 80px;
     border-radius: 30px;
 }
+/* End Features */
+
+
