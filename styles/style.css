@@ -5,6 +5,10 @@
     cursor: default;
 }
 
+p {
+    line-height: 25px;
+}
+
 :root {
     --cor1: #FFFFFF;
     --cor2: #0D9488;
@@ -15,7 +19,6 @@
     --cor7: #7E22CE;
     --cor8: #2563EB;
 }
-
 
 /* Start Menu */
 header {
@@ -104,8 +107,7 @@ main {
 
 /* Start Home */
 .home {
-    display: flex;
-    
+    display: flex; 
 }
 
 #home {
@@ -115,7 +117,7 @@ main {
 
 .content {
     max-width: 593px;
-    min-width: 329px;
+    min-width: 300px;
     max-height: 607px;
     display: flex;
     align-content: center;
@@ -126,8 +128,9 @@ main {
 .content-text {
     display: flex;
     float: left;
-    margin-top: 82px;
+    margin-top: 55px;
     max-width: 912px;
+    min-width: 400px;
     max-height: 100%;
     margin-left: 113px;
     margin-right: 60px;
@@ -135,17 +138,19 @@ main {
 }
 
 .content-text h1 {
-    font-size: 2em;  
+    font-size: 2rem;  
 }
 
 .content-text p {
     margin-top: 20px;
-    font-size: 1.3em;
-    color: var(--cor5);  
+    font-size: 1.3rem;
+    color: var(--cor5); 
+    
 }
 
 .content-image {
     max-width: 764px;
+    min-width: 319px;
     max-height: 600px;
     z-index: -2;
     margin-left: 130px;
@@ -157,17 +162,18 @@ main {
     padding: 0;
 }
 
+
+
 #content-diagonal {
     float: left;
-    margin-left: 60%;
-    margin-top: -75.5%;
-    max-width: 780px;
-    min-width: 517px;
+    margin-left: 434px;
+    margin-top: -761.5px;
+    min-width: 386px;
     min-height: auto;
-    height: 110%;
-    background: rgb(255, 255, 255);
+    height: 200%;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , var(--cor5) 260%);
     transform: skew(-20deg);
-    border-left: 0px transparent;
+    border-left: 0px;
     border-right: 0px;
     border-top: 0px;
     border-bottom: 0px;
@@ -176,6 +182,7 @@ main {
     display: flex;
     z-index: -1;
 }
+
 
 @media screen and (max-width: 1365px) {
     * {
@@ -222,6 +229,7 @@ main {
 .content-button {
     display: flex;
     margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .content-button #button1 a {
@@ -395,7 +403,6 @@ main {
 }
 
 .descrition p {
-    line-height: 25px;
     font-size: 1.2em;
 }
 /* End Stats */
