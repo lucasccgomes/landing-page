@@ -10,6 +10,7 @@ p {
 }
 
 :root {
+    
     --cor1: #FFFFFF;
     --cor2: #0D9488;
     --cor3: #0F766E;
@@ -18,7 +19,19 @@ p {
     --cor6: #1B1F29;
     --cor7: #7E22CE;
     --cor8: #2563EB;
+    
+    --boy-blue: #6BA2F5ff;
+    --cobalt: #2B3380ff;
+    --wild: #D26695ff;
+    --blue-eyes: #A1D4FAff;
+    --cerulean: #3859CCff;
+    --orange-yellow-crayola: #F1CE63ff;
+    --royal-blue-dark: #202160ff;
+    --blue-violet-crayola: #6963AFff;
+    --byzantium: #80236Cff;
+    --cool-grey: #888CBAff;
 }
+
 
 /* Start Menu */
 header {
