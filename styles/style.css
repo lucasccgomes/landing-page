@@ -9,9 +9,17 @@ p {
     line-height: 25px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
 :root {
     
-    --cor1: #FFFFFF;
+    --cor1: #dbc4c4;
     --cor2: #0D9488;
     --cor3: #0F766E;
     --cor4: #04181D;
@@ -20,6 +28,9 @@ p {
     --cor7: #7E22CE;
     --cor8: #2563EB;
     
+    --corheader:#252C72;
+    --corhome: #202464;
+    --corbuttom: #4793FA;
     --boy-blue: #6BA2F5ff;
     --cobalt: #2B3380ff;
     --wild: #D26695ff;
@@ -35,7 +46,7 @@ p {
 
 /* Start Menu */
 header {
-    background-color: var(--cor4);
+    background-color: var(--corheader);
     min-height: 55px;
     display: block;
     position: fixed;
@@ -43,9 +54,18 @@ header {
     z-index: 1;
 }
 
+.logo p {
+    float: left;
+    color: var(--cor1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -261px;
+    padding-top: 47px;
+    padding-bottom: 8px;
+}
+
 .logo h1 {
     float: left;
-    color: var(--cor2);
+    color: var(--cor1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 8%;
     padding-top: 1%;
@@ -54,6 +74,7 @@ header {
 
 .navegation {
     margin: auto;
+    margin-top: 5px;
     display: flex;
     justify-content: flex-end;
     padding-top: 1%;
@@ -62,13 +83,13 @@ header {
 }
 
 .navegation nav {
-    margin-right: 35px;
+    margin-right: 21px;
 }
 
 .navegation a {
     text-decoration: none;
     color: var(--cor1);
-    margin-right: 20px;
+    margin-right: 12px;
 }
 
 #button {
@@ -91,7 +112,8 @@ header {
 
 #button1 {
     color: var(--cor1);
-    background-color: var(--cor2);
+    background-color: var(--corbuttom);
+    border: 0px;
     
     
 }
@@ -103,6 +125,7 @@ header {
 #button2 {
     background-color: var(--cor1);
     margin-right: 24px;
+    border: 0px;
 }
 
 #side-menu {
@@ -130,7 +153,7 @@ main {
 
 .content {
     max-width: 593px;
-    min-width: 300px;
+    min-width: 471px;
     max-height: 607px;
     display: flex;
     align-content: center;
@@ -141,17 +164,19 @@ main {
 .content-text {
     display: flex;
     float: left;
-    margin-top: 55px;
+    margin-top: 70px;
     max-width: 912px;
-    min-width: 400px;
+    min-width: 471px;
     max-height: 100%;
     margin-left: 113px;
     margin-right: 60px;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .content-text h1 {
-    font-size: 2rem;  
+    font-size: 2rem; 
+    color: var(--corheader); 
 }
 
 .content-text p {
@@ -184,7 +209,7 @@ main {
     min-width: 386px;
     min-height: auto;
     height: 200%;
-    background-image: linear-gradient(to right, rgb(255, 255, 255) , var(--cor5) 260%);
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , var(--corbuttom) 280%);
     transform: skew(-20deg);
     border-left: 0px;
     border-right: 0px;
@@ -242,7 +267,7 @@ main {
 .content-button {
     display: flex;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 5px;
 }
 
 .content-button #button1 a {
@@ -265,7 +290,7 @@ main {
 
 /*Start Stats*/
 #stats {
-    background-color: var(--cor6);
+    background-color: var(--corhome);
     color: var(--cor1);
     padding-top: 100px;
 }
@@ -280,7 +305,7 @@ main {
     flex-direction: column;
     margin-left: 40px;
     margin-right: 40px;
-    max-width: 428px;
+    max-width: 546px;
 }
 
 #coins-time h2 {
@@ -293,11 +318,13 @@ main {
 
 .info-number {
     display: flex;
-    max-width: 609px;
+    max-width: 540px;
+    max-height: 300px;
     border: 1px;
     border-style: solid;
     border-radius: 5px 5px 5px 5px;
-    margin-right: 80px;
+    margin-right: 20px;
+    margin-top: 50px;
     align-items: center;
 }
 
