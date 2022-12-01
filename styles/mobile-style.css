@@ -237,6 +237,7 @@
 
     .info-number {
         margin: auto;
+        min-height: 300px;
     }
 
     .info1 {

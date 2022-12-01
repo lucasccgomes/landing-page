@@ -328,14 +328,27 @@ main {
     align-items: center;
 }
 
+.valores {
+    position: relative;
+    top: -122px;
+    left: 229px;
+}
+
 .info1 {
     margin-top: 0px;
     max-width: 300px;
     min-width: 160px;
-    margin-left: 60px;
+    margin-left: -32px;
     margin-right: 60px;
     font-weight: 600;
     font-size: 1.3em;
+}
+
+.info1 .descricao {
+    margin-top: 4px;
+    font-size: .6em;
+    line-height: 15px;
+    font-weight: 300;
 }
 
 .supply, .initial, .airdrop, .apr {
@@ -394,13 +407,13 @@ main {
     max-width: 520px;
 }
 
-.nft-token {
+.qualidade-desempenho {
     display: flex;
 }
 
-.nft {
+.qualidade {
     background-color: var(--cor7);
-    width: 46px;
+    width: 70px;
     height: 24px;
     display: flex;
     text-align: center;
@@ -411,9 +424,9 @@ main {
     margin-right: 10px;
 }
 
-.token {
+.desempenho {
     background-color: var(--cor8);
-    width: 56px;
+    width: 85px;
     height: 24px;
     display: flex;
     text-align: center;
@@ -423,12 +436,12 @@ main {
     font-size: .8em;
 }
 
-.nft:hover {
+.qualidade:hover {
     background-color: #6d1fb1;
     cursor: default;
 }
 
-.token:hover {
+.desempenho:hover {
     background-color: #1f53c4;
     cursor: default;
 }
