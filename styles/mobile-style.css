@@ -7,19 +7,19 @@
         cursor: default;
     }
 
-    #button > #button2 {
+    #button > .button2 {
         display: none;
     }
 }
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 520px) {
     * {
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
-    #button > #button1 {
+    #button > .button1 {
         display: none;
     }
 }
@@ -192,7 +192,7 @@
 
 /* Start Stats */
 @media screen and (max-width:900px) {
-    .antial {
+    .missao {
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -240,14 +240,24 @@
         min-height: 300px;
     }
 
-    .info1 {
-        margin-top: 20px;
+    .valores {
+        position: relative;
+        top: 0px;
+        left: -3px;
         margin-bottom: 20px;
     }
 
+    .info1 {
+        margin: 0;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
     .info2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 0;
+        padding: 0;
+        margin-left: 12px;
+        margin-right: 12px;
     }
 }
 /* End Stats */

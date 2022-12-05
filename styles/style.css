@@ -83,21 +83,36 @@ header {
 }
 
 .navegation nav {
-    margin-right: 21px;
+    margin-right: 0px;
+}
+
+.navegation .button1 {
+    margin-left: 6px;
 }
 
 .navegation a {
     text-decoration: none;
     color: var(--cor1);
-    margin-right: 12px;
+    margin-right: 3px;
 }
 
 #button {
     display: flex;
 }
 
+.img-button {
+    max-width: 40px;
+    margin-left: -5px;
+    margin-right: 0px;
+}
+
+.email {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
 .button {
-    margin-right: 20px;
+    margin-right: 9px;
     min-height: 40px;
     display: flex;
     align-items: center;
@@ -107,10 +122,13 @@ header {
 }
 
 .button a {
+    display: flex;
     margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
-#button1 {
+.button1 {
     color: var(--cor1);
     background-color: var(--corbuttom);
     border: 0px;
@@ -118,11 +136,11 @@ header {
     
 }
 
-#button2 a {
+.button2 a {
     color: var(--cor4);
 }
 
-#button2 {
+.button2 {
     background-color: var(--cor1);
     margin-right: 24px;
     border: 0px;
@@ -270,18 +288,18 @@ main {
     margin-bottom: 5px;
 }
 
-.content-button #button1 a {
+.content-button .button1 a {
     color: var(--cor1);
     text-decoration: none;
     font-weight: 600;
 }
 
-.content-button #button2 a {
+.content-button .button2 a {
     text-decoration: none;
     font-weight: 600;
 }
 
-.content-button > #button2 {
+.content-button > .button2 {
     border: 1px;
     border-color: var(--cor2);
     border-style: solid;
@@ -318,8 +336,8 @@ main {
 
 .info-number {
     display: flex;
-    max-width: 540px;
-    max-height: 300px;
+    max-width: 560px;
+    max-height: 343px;
     border: 1px;
     border-style: solid;
     border-radius: 5px 5px 5px 5px;
@@ -335,23 +353,23 @@ main {
 }
 
 .info1 {
-    margin-top: 0px;
+    margin-top: 20px;
     max-width: 300px;
     min-width: 160px;
-    margin-left: -32px;
-    margin-right: 60px;
+    margin-left: -64px;
+    margin-right: 10px;
     font-weight: 600;
     font-size: 1.3em;
 }
 
-.info1 .descricao {
+.descricao {
     margin-top: 4px;
     font-size: .6em;
     line-height: 15px;
     font-weight: 300;
 }
 
-.supply, .initial, .airdrop, .apr {
+.inteligencia, .qualidade-orientacao, .equipe, .resultados {
     margin-bottom: 20px;
 }
 
@@ -362,13 +380,13 @@ main {
     border: 0px;
     border-left: 1px;
     border-style: solid;
-    padding-left: 60px;
-    margin-right: 60px;
+    padding-left: 20px;
+    margin-right: 11px;
     font-weight: 600;
     font-size: 1.3em;
 }
 
-.antial {
+.missao {
     display: flex;
     align-items: center;
     flex-direction: row;
