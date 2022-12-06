@@ -1,5 +1,5 @@
-/* Start Menu */
-@media screen and (max-width: 520px) {
+
+@media screen and (max-width: 593px) {
     * {
         margin: 0;
         padding: 0;
@@ -55,6 +55,7 @@
         margin: auto;
     }
 
+    /* Inicio Menu */
     #check {
         display: none;
     }
@@ -138,10 +139,30 @@
         text-align: center;
         align-items: center;
    }
-/* End Menu */
+    /* Fim Menu */
 }
-/* Start Home */
+
 @media screen and (max-width:680px) {
+
+    /* Inicio Header */
+    .logo h1 {
+        font-size: 1.6rem;
+        float: left;
+        margin-left: 3%;
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+
+    .logo p {
+        font-size: .8rem;
+        float: left;
+        margin-left: -197px;
+        padding-top: 38px;
+    }
+    /* Fim Header */
+
+
+    /* Inicio Home */
     #home {
         margin-left: 28px;
         margin-right: 28px;
@@ -187,10 +208,10 @@
     .content-button {
         margin-bottom: 30px;
     }
+    /* Fim Home */
 }
-/* End Home */
 
-/* Start Stats */
+/* Inicio Stats */
 @media screen and (max-width:900px) {
     .missao {
         margin: auto;
@@ -260,9 +281,50 @@
         margin-right: 12px;
     }
 }
-/* End Stats */
+/* Fim Stats */
+
+@media screen and (max-width:1219px) {
+    .info-number {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info1 {
+        margin: 0;
+        margin-left: 12px;
+        margin-right: 12px;
+}
+
+    .info2 {
+        margin: 0;
+        padding: 0;
+        margin-left: 12px;
+        margin-right: 12px;
+        border: 0;
+}
+
+    .valores {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        top: 0px;
+        left: 4px;
+    }
+
+}
 
 @media screen and (max-width:762px) {
+
+    /* Inicio Clientes */
+    #clientes {
+        flex-direction: column;
+    }
+
+    #clientes h1 {
+        text-align: center;
+        margin-top: 10px;
+        color: var(--corheader);
+    }
+
     #products {
         display: flex;
         flex-direction: column;
@@ -283,5 +345,8 @@
         margin-bottom: 10px;
     }
 
+    .figure:hover {
+        transform: none;
+    }
+    /* Fim Clientes */
 }
-

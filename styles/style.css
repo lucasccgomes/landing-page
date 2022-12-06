@@ -44,7 +44,7 @@ a:hover {
 }
 
 
-/* Start Menu */
+/* Start Header+Menu */
 header {
     background-color: var(--corheader);
     min-height: 55px;
@@ -54,15 +54,6 @@ header {
     z-index: 1;
 }
 
-.logo p {
-    float: left;
-    color: var(--cor1);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: -261px;
-    padding-top: 47px;
-    padding-bottom: 8px;
-}
-
 .logo h1 {
     float: left;
     color: var(--cor1);
@@ -70,6 +61,15 @@ header {
     margin-left: 8%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.logo p {
+    float: left;
+    color: var(--cor1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -261px;
+    padding-top: 47px;
+    padding-bottom: 8px;
 }
 
 .navegation {
@@ -149,7 +149,7 @@ header {
 #side-menu {
     display: none;
 }
-/* End Menu */
+/* End Header+Menu */
 
 
 /* Rever a real necessidade */
@@ -171,7 +171,7 @@ main {
 
 .content {
     max-width: 593px;
-    min-width: 471px;
+    min-width: 350px;
     max-height: 607px;
     display: flex;
     align-content: center;
@@ -425,11 +425,11 @@ main {
     max-width: 520px;
 }
 
-.qualidade-desempenho {
+.descrition .qualidade-desempenho {
     display: flex;
 }
 
-.qualidade {
+.descrition .qualidade {
     background-color: var(--cor7);
     width: 70px;
     height: 24px;
@@ -442,7 +442,7 @@ main {
     margin-right: 10px;
 }
 
-.desempenho {
+.descrition .desempenho {
     background-color: var(--cor8);
     width: 85px;
     height: 24px;
@@ -475,13 +475,23 @@ main {
 
 .descrition p {
     font-size: 1.2em;
+    margin-top: 5px;
 }
 /* End Stats */
 
-/* Start Features */
-#features {
+/* Start Clientes */
+#clientes {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clientes h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--corheader);
+    font-size: 2rem;
 }
 
 #products {
@@ -493,24 +503,48 @@ main {
 }
 
 .products {
+    display: flex;
     margin-bottom: 25px;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .products p {
     margin-left: 15px;
     max-width: 315px;
+    min-width: 315px;
     line-height: 25px;
+    color: var(--cor5);
+}
+
+ .nome-cliente {
+    max-width: 150px !important;
+    min-width: 130px !important;
+    font-weight: 600;
+    margin-top: 15px !important;
+    border: 0;
+    border-top: 5px;
+    border-style: solid;
+    border-color: #0D9488; 
+    padding-top: 5px;
 }
 
 .figure {
+	border-radius: 50%;
+	overflow: hidden;
+	transition: 0.8s ease;
     margin: auto;
     max-width: 80px;
     max-height: 80px;
     border: 3px;
-    border-radius: 30px;
     border-style: solid;
     border-color: var(--cor5);
     margin-bottom: 10px;
+}
+
+.figure:hover {
+    transform: rotateY(180deg);
 }
 
 .figure img {
@@ -519,7 +553,25 @@ main {
     width: 80px;
     height: 80px;
     border-radius: 30px;
+    padding-top: 5px;
 }
-/* End Features */
+/* End Clientes */
+
+/* Inicio Quem somos */
+
+#quem-somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quem-somos {
+    max-width: 990px;
+    margin-top: 60px;
+    margin: 20px;
+    color: var(--cor5);
+}
 
 
