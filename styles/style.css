@@ -44,7 +44,7 @@ a:hover {
 }
 
 
-/* Start Header+Menu */
+/* Inicio Header+Menu */
 header {
     background-color: var(--corheader);
     min-height: 55px;
@@ -149,7 +149,7 @@ header {
 #side-menu {
     display: none;
 }
-/* End Header+Menu */
+/* Fim Header+Menu */
 
 
 /* Rever a real necessidade */
@@ -159,7 +159,7 @@ main {
 /* Rever a real necessidade */
 
 
-/* Start Home */
+/* Inicio Home */
 .home {
     display: flex; 
 }
@@ -217,8 +217,6 @@ main {
     margin-bottom: -4px;
     padding: 0;
 }
-
-
 
 #content-diagonal {
     float: left;
@@ -304,21 +302,22 @@ main {
     border-color: var(--cor2);
     border-style: solid;
 }
-/*End Home*/
+/* Fim Home */
 
-/*Start Stats*/
-#stats {
+
+/* Inicio Sobre*/
+#sobre {
     background-color: var(--corhome);
     color: var(--cor1);
     padding-top: 100px;
 }
 
-#content-stats {
+#content-sobre {
     display: flex;
     justify-content: center;
 }
 
-#coins-time {
+#sobre-servicos {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
@@ -326,15 +325,15 @@ main {
     max-width: 546px;
 }
 
-#coins-time h2 {
+#sobre-servicos h2 {
     margin-bottom: 8px;
 }
 
-.coins {
+.servicos {
     margin-bottom: 60px;
 }
 
-.info-number {
+.sobre-valores {
     display: flex;
     max-width: 560px;
     max-height: 343px;
@@ -477,9 +476,10 @@ main {
     font-size: 1.2em;
     margin-top: 5px;
 }
-/* End Stats */
+/* Fim Sobre */
 
-/* Start Clientes */
+
+/* Inicio Clientes */
 #clientes {
     display: flex;
     justify-content: center;
@@ -489,12 +489,13 @@ main {
 
 #clientes h1 {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 117px;
+    margin-bottom: 30px;
     color: var(--corheader);
     font-size: 2rem;
 }
 
-#products {
+#info-clientes {
     margin-top: 30px;
     display: flex;
     margin-left: 15px;
@@ -502,7 +503,7 @@ main {
     text-align: center;
 }
 
-.products {
+.clientes {
     display: flex;
     margin-bottom: 25px;
     flex-direction: column;
@@ -510,7 +511,7 @@ main {
     
 }
 
-.products p {
+.clientes p {
     margin-left: 15px;
     max-width: 315px;
     min-width: 315px;
@@ -555,10 +556,10 @@ main {
     border-radius: 30px;
     padding-top: 5px;
 }
-/* End Clientes */
+/* Fim Clientes */
+
 
 /* Inicio Quem somos */
-
 #quem-somos {
     display: flex;
     flex-direction: column;
@@ -574,4 +575,102 @@ main {
     color: var(--cor5);
 }
 
+.quem-somos h1 {
+    color: var(--corheader);
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+/* Fim Quem somos */
 
+
+/* Inicio footer */
+footer {
+    max-height: 600px;
+    min-height: 300px;
+    background-color: var(--corhome);
+    color: var(--cor1);
+    margin: auto;
+}
+
+#contrate {
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding-top: 1px;
+}
+
+#contrate h1 {
+   margin-top: 50px;
+}
+
+#contrate p {
+    margin-top: 18px;
+}
+
+footer .navegation {
+    justify-content: center;
+    margin-top: 70px;
+}
+
+footer .navegation a {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    border-left: 3px;
+    border-color: #1f53c4;
+    border-style: solid;
+   
+}
+
+#bottun-home {
+    border-left: 0px;
+}
+
+#button-footer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#button-footer a {
+    text-decoration: none;
+}
+
+#button-footer .button1 a {
+    color: var(--cor1);
+}
+
+#copyright {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--cor1);
+}
+
+#copyright #contato {
+    color: var(--cor1);
+    text-align: center;
+    margin: auto;
+    background-color: var(--cor8);
+    max-width: 400px;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+#copyright #contato a {
+    margin-left: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 1.5em;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#corpyright #contato a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#corpyright #contato a:hover {
+    background-color: var(--cor2);
+}
