@@ -186,7 +186,7 @@ main {
     max-width: 912px;
     min-width: 471px;
     max-height: 100%;
-    margin-left: 113px;
+    margin-left: 132px;
     margin-right: 60px;
     flex-direction: column;
     padding-top: 30px;
@@ -573,6 +573,7 @@ main {
     margin-top: 60px;
     margin: 20px;
     color: var(--cor5);
+    margin-bottom: 60px;
 }
 
 .quem-somos h1 {
@@ -696,3 +697,4 @@ footer .navegation a {
     margin-bottom: 5px;
     font-weight: 600;
 }
+/* Fim Footer */
