@@ -1,3 +1,28 @@
+:root {
+    --cor1: #dbc4c4;
+    --cor2: #0D9488;
+    --cor3: #0F766E;
+    --cor4: #04181D;
+    --cor5: #374151;
+    --cor6: #1B1F29;
+    --cor7: #7E22CE;
+    --cor8: #2563EB;
+    
+    --corheader:#252C72;
+    --corhome: #202464;
+    --corbuttom: #4793FA;
+    --boy-blue: #6BA2F5ff;
+    --cobalt: #2B3380ff;
+    --wild: #D26695ff;
+    --blue-eyes: #A1D4FAff;
+    --cerulean: #3859CCff;
+    --orange-yellow-crayola: #F1CE63ff;
+    --royal-blue-dark: #202160ff;
+    --blue-violet-crayola: #6963AFff;
+    --byzantium: #80236Cff;
+    --cool-grey: #888CBAff;
+}
+
 @media screen and (max-width: 520px) {
     * {
         margin: 0;
@@ -93,6 +118,36 @@
         margin-bottom: 30px;
     }
     /* Fim Home */
+
+    /* Inicio Footer */
+    .rede img {
+        max-width: 100px;
+        max-height: 25px;
+    }
+    .rede img:hover {
+        cursor: pointer;
+        transform: none;
+    }
+
+    .github img {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .copyright {
+        font-size: .8rem;
+    }
+
+    .agradecimento {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .agradecimento a {
+        margin-bottom: 3px;        
+    }
 }
 
 
@@ -173,14 +228,6 @@
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    :root {
-        --cor1: #FFFFFF;
-        --cor2: #0D9488;
-        --cor3: #0F766E;
-        --cor4: #04181D;
-        --cor5: #374151;
     }
     
     /* Inicio Menu */

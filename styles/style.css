@@ -585,7 +585,7 @@ main {
 
 /* Inicio footer */
 footer {
-    max-height: 600px;
+    max-height: 650px;
     min-height: 300px;
     background-color: var(--corhome);
     color: var(--cor1);
@@ -643,34 +643,56 @@ footer .navegation a {
 #copyright {
     margin-top: 30px;
     text-align: center;
-    color: var(--cor1);
+}
+
+.informativo {
+    margin-bottom: 30px;
+}
+
+.tecnologias {
+    margin-bottom: 30px;
+}
+
+.tecnologias img:hover {
+    cursor: pointer;
 }
 
 #copyright #contato {
     color: var(--cor1);
     text-align: center;
     margin: auto;
-    background-color: var(--cor8);
-    max-width: 400px;
-    padding: 0px;
-    border-radius: 5px;
+    max-width: 450px;
 }
 
 #copyright #contato a {
-    margin-left: 20px;
-    margin-bottom: 0;
-    text-decoration: none;
-    margin-right: 8px;
-    font-size: 1.5em;
-    color: white;
-    padding: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
     cursor: pointer;
 }
 
-#corpyright #contato a:visited {
-    color: rgb(255, 255, 255);
+.rede img:hover {
+    cursor: pointer;
+    transform: rotateX(30deg);
 }
 
-#corpyright #contato a:hover {
-    background-color: var(--cor2);
+.github img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.agradecimento {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.agradecimento a {
+    text-decoration: none;
+    color: white;
+}
+
+.agradecimento p {
+    margin-bottom: 5px;
+    font-weight: 600;
 }
