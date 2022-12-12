@@ -55,7 +55,7 @@
 @media screen and (max-width:680px) {
     /* Inicio Header */
     .logo h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         float: left;
         margin-left: 3%;
         padding-top: 3%;
@@ -64,8 +64,8 @@
 
     .logo p {
         font-size: .8rem;
-        float: left;
-        margin-left: -197px;
+        
+        margin-left: -200px;
         padding-top: 38px;
     }
     /* Fim Header */
@@ -118,6 +118,15 @@
         margin-bottom: 30px;
     }
     /* Fim Home */
+
+    /* Inicio Sobre */
+    .servicos h2 {
+        max-width: 465px;
+    }
+
+    #sobre {
+        padding-top: 50px;
+    }
 
     /* Inicio Footer */
     .rede img {
@@ -352,7 +361,7 @@
 
     .sobre-valores {
         margin: auto;
-        min-height: 300px;
+        min-height: 376px;
     }
 
     .valores {
