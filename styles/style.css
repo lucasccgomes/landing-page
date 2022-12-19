@@ -42,6 +42,11 @@ a:hover {
 
 
 /* Inicio Header+Menu */
+.headercenter {
+    margin: auto;
+    max-width: 1450px;
+}
+
 header {
     background-color: var(--corheader);
     min-height: 55px;
