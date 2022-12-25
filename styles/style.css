@@ -522,7 +522,7 @@ main {
 }
 
  .nome-cliente {
-    max-width: 150px !important;
+    max-width: 170px !important;
     min-width: 130px !important;
     font-weight: 600;
     margin-top: 15px !important;
@@ -588,7 +588,7 @@ main {
 
 /* Inicio footer */
 footer {
-    max-height: 650px;
+    max-height: 700px;
     min-height: 300px;
     background-color: var(--corhome);
     color: var(--cor1);
